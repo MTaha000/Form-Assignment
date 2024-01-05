@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Form Assignment</title>
+</head>
+
+<body>
+    <h1>SMIT SignUp Form</h1>
+    <form>
+        <fieldset>
+            <legend><b>User Registration Form</b></legend>
+            <label for="name"> First Name <br>
+                <input type="text" id="name" placeholder="Enter Your First Name" size="50" maxlength="20"
+                    required="required">
+            </label><br><br>
+            <label for="name"> Last Name <br>
+                <input type="text" id="name" placeholder="Enter Your Last Name" size="50" maxlength="20"
+                    required="required">
+            </label><br><br>
+            <label for="name"> Email<br>
+                <input type="email" id="name" placeholder="Enter Your Last Name" size="50" maxlength="20"
+                    required="required">
+            </label><br><br>
+            <label for="name"> Password <br>
+                <input type="password" id="name" placeholder="Enter Password" size="50" maxlength="20"
+                    required="required">
+            </label><br><br>
+            <label for="name"> Bio <br>
+                <textarea id="" cols="52" rows="8"></textarea>
+            </label>
+            <div>
+                <fieldset class="radio">
+                    <legend>Gender</legend>
+                    <label for="male">
+                        <input type="radio" id="male" name="gender">
+                        Male
+                    </label><br>
+                    <label for="female">
+                        <input type="radio" id="female" name="gender">
+                        Female
+                    </label><br>
+                    <label for="other">
+                        <input type="radio" id="other" name="gender">
+                        Other
+                    </label>
+                </fieldset>
+                <fieldset class="checkbox">
+                    <legend>Interests</legend>
+                    <label for="music">
+                        <input type="checkbox" id="music">
+                        Music
+                    </label><br>
+                    <label for="sports">
+                        <input type="checkbox" id="sports">
+                        Sports
+                    </label><br>
+                    <label for="reading">
+                        <input type="checkbox" id="reading">
+                        Reading
+                    </label>
+                </fieldset><br>
+            </div>
+            <div>
+                <label for="">Profile Picture:
+                    <input type="file" name="" id="">
+                </label>
+                <label for="country">Country :
+                    <select id="country">
+                        <label for="">Country </label>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="India">India</option>
+                        <option value="United States">United States</option>
+                        <option value="China">China</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                    </select>
+                </label>
+                <br>
+                <label for="">BirthDate
+                    <input type="date">
+                </label>
+            </div>
+            <div class="btn">
+                <input type="submit">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
